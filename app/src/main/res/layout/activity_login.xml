@@ -68,20 +68,11 @@
             android:text="@string/action_sign_in"
             android:textStyle="bold" />
 
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="74dp"
-            android:id="@+id/imageButton"
-            android:src="@color/abc_btn_colored_borderless_text_material"
-            android:clickable="true"
-            android:focusable="true"
-            android:contentDescription="Login with Google" />
-
-        <Button
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button" />
+            android:layout_height="wrap_content" />
+
 
     </LinearLayout>
 
