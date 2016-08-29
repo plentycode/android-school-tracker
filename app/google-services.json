@@ -15,11 +15,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "974019721046-cirh4nq2mke3mpifro7g2dqmbfs9hmvn.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "974019721046-dd65u9hv8s2nqami3k1obvoal4c1s07m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.plentycode.school_tracker",
+            "certificate_hash": "A507231963512C649AE6FE52A0091344D2D9B420"
+          }
         },
         {
-          "client_id": "974019721046-i19s135sf5ubeacj5vc0946gtpqt50ol.apps.googleusercontent.com",
+          "client_id": "974019721046-vmmh65pi8s2bhot0b9u3f6aqonscr1jc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
