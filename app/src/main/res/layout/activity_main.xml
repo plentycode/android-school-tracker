@@ -10,9 +10,21 @@
     tools:context="com.plentycode.school_tracker.MainActivity">
 
     <TextView
+        android:id="@+id/centered_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="He [user] "
         android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/log_out"
+        android:layout_marginTop="47dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/centered_text"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
